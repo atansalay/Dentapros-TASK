@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <title>Giriş Formu</title>
+      </head>
+      <body>
+        <h2>Giriş Yap</h2>
+        <form action="giris.php" method="post">
+          <label for="kullanici_adi">Kullanıcı Adı:</label>
+          <input
+            type="text"
+            id="kullanici_adi"
+            name="kullanici_adi"
+            required
+          /><br />
+    
+          <label for="sifre">Şifre:</label>
+          <input type="password" id="sifre" name="sifre" required /><br />
+    
+          <input type="submit" value="Giriş Yap" />
+        </form>
+      </body>
+</html>
